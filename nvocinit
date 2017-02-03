@@ -1,0 +1,6 @@
+sudo nvidia-smi --persistence-mode=1
+sudo nvidia-smi --power-limit=425
+sudo nvidia-settings -a GPUOverVoltageOffset=50000
+sudo nvidia-settings -a '[gpu:0]/GPUPowerMizerMode=1'
+sudo nvidia-settings -a '[gpu:0]/GPUGraphicsClockOffset[3]=110'
+sudo nvidia-settings -a '[gpu:0]/GPUMemoryTransferRateOffset[3]=1000' 
