@@ -5,7 +5,7 @@
 
 sudo nano /etc/X11/xorg.conf
 
-Copy and Paste or create as needed.
+#Copy and Paste or create as needed.
 
 Section "Device"
     Identifier     "Device0"
