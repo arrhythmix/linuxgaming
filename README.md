@@ -2,7 +2,8 @@
     *Just personal scripts and commands used for overclocking Nvidia GPUs in Linux.
     *This is for Debian/Ubuntu based distros, commands may vary.
     *requires editting of X11 server settings, specifically "xorg.conf" found under "/etc/X11/xorg.conf
-    *don't blame me if your card explodes, catches fire, short-circuts, whines, or tears a hole in the spacetime-contiuum 
+    *don't blame me if your card explodes, catches fire, short-circuts, whines, 
+    *or tears a hole in the spacetime-contiuum, you have been warned. 
 
 
 #xorg.conf values
