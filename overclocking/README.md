@@ -25,5 +25,5 @@
         EndSubSection
     EndSection
 
-#nvocq.sh or Nvidia Overclock Quyierying is used to determine values, and if needed tobe adjusted for overclock.
-#nvocinit.sh or Nvidia Overclocking initialization is used to adjust values and save settings.
+#nvocq.sh or Nvidia Overclock Querying script is used to determine values, and if needed tobe adjusted for overclock.
+#nvocinit.sh or Nvidia Overclocking script is used for initialization to adjust values and save settings.
