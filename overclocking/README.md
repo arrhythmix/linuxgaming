@@ -4,8 +4,6 @@
     *requires editting of X11 server settings, specifically "xorg.conf" found under "/etc/X11/xorg.conf
     *don't blame me if your card explodes, catches fire, short-circuts, whines, 
     *or tears a hole in the spacetime-contiuum, you have been warned. 
-
-
 #xorg.conf values
 
     Section "Device"
@@ -26,3 +24,6 @@
             Depth       24
         EndSubSection
     EndSection
+
+#nvocq.sh or Nvidia Overclock Quyierying is used to determine values, and if needed tobe adjusted for overclock.
+#nvocinit.sh or Nvidia Overclocking initialization is used to adjust values and save settings.
