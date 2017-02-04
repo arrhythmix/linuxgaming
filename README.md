@@ -1,3 +1,5 @@
+# Linux Gaming Tip & Guides
+
 # Overclocking Nvidia GPUs in Linux
     *Just personal scripts and commands used for overclocking Nvidia GPUs in Linux.
     *This is for Debian/Ubuntu based distros, commands may vary.
