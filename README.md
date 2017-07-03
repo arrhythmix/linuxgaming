@@ -23,5 +23,5 @@ driver   : nvidia-378 - third-party free
 driver   : xserver-xorg-video-nouveau - distro free builtin  
 driver   : nvidia-381 - third-party free recommended  
 
-#So now I'll be installing latest recommended drivers using:
+#So now I'll be installing latest recommended drivers using:  
 sudo apt install nvidia-381   
