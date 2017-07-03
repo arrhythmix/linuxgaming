@@ -1,14 +1,14 @@
 # Linux Gaming Tip & Guides
 
-#Welcome to my guide to getting started in Debian based systems for gaming usage. 
-#To get started pick any Ubuntu variant or Debian distro. 
-#This guide will focus on Nvidia GPUs for the time being, until I can get an AMD one.
-#Once you have everything up and running. start bashing. This guide will be assuming you have a fresh distro install.
+#Welcome to my guide to getting started in Debian based systems for gaming usage.  
+#To get started pick any Ubuntu variant or Debian distro.   
+#This guide will focus on Nvidia GPUs for the time being, until I can get an AMD one.  
+#Once you have everything up and running. start bashing. This guide will be assuming you have a fresh distro install.  
 
-#Let's get started by adding the driver PPA with:
+#Let's get started by adding the driver PPA with:  
 
-sudo add-apt-repository ppa:graphics-drivers
-sudo apt-get update 
+sudo add-apt-repository ppa:graphics-drivers  
+sudo apt-get update  
 
 #Next we will find the current recommended drivers with:
 sudo ubuntu-drivers devices
