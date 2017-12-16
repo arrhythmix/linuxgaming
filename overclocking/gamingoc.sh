@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-#Below are settings to adjust power delivery and enable settings needed for overclocks. 
+#Below are settings to adjust power delivery and enable settings needed for overclocks  
 
 #enabled[1] or disable[2] Persistence mode 
 sudo nvidia-smi --persistence-mode=1
