@@ -29,4 +29,5 @@ driver   : nvidia-384 - third-party free
 driver   : xserver-xorg-video-nouveau - distro free builtin
 
 **So now I'll be installing latest "recommended" drivers**  
+
 sudo apt install nvidia-387 
