@@ -13,12 +13,19 @@ sudo ubuntu-drivers devices
 **It should look something like this:**
 
 root@cube:~# sudo ubuntu-drivers devices
+
 == /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0 ==
+
 modalias : pci:v000010DEd00001C03sv00003842sd00006161bc03sc00i00
+
 vendor   : NVIDIA Corporation
+
 model    : GP106 [GeForce GTX 1060 6GB]
+
 driver   : nvidia-387 - third-party free recommended
+
 driver   : nvidia-384 - third-party free
+
 driver   : xserver-xorg-video-nouveau - distro free builtin
 
 **So now I'll be installing latest "recommended" drivers**  
