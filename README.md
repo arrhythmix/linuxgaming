@@ -8,6 +8,7 @@ sudo add-apt-repository ppa:graphics-drivers
 sudo apt-get update  
 
 **Next we will find the current recommended drivers**
+
 sudo ubuntu-drivers devices
 
 **It should look something like this:**
