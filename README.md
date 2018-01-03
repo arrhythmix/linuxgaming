@@ -27,6 +27,7 @@ driver   : xserver-xorg-video-nouveau - distro free builtin
 sudo apt install nvidia-387 
 
 **Next up, we'll be modifying Xorg config files**
+
 sudo nvidia-xconfig
 
 #This will generate an Xorg config profile based on current devices.
