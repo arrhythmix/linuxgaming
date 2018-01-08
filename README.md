@@ -30,4 +30,4 @@ sudo apt install nvidia-387
 
 sudo nvidia-xconfig
 
-This will generate an Xorg config profile based on current devices in /etc/X11/xorg.conf
+This will generate an "xorg.conf" file inside /etc/X11/
