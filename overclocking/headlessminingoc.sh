@@ -1,16 +1,19 @@
 !/usr/bin/bash 
-#Below are settings to adjust power delivery and enable settings needed for overclocks. 
-#Values for core and mem values may vary depending on bin.
+###Below are settings to adjust power delivery and enable settings needed for overclocks. 
+####Values for core and mem values may vary depending on bin.
 
 #enabled[1] or disable[0] Persistence mode:
 
 #sudo nvidia-smi -pm 1
 
 #sets maximum voltage offset limit allowed, unqualified values will return maximum value allowed. 
-#sets voltage overclock and offset measured in microvolts [1000 microvolts = 1 millivolt = 0.01 volts].
-#If unqualified value is given, maximum value allowed is returned.
+#sets voltage overclock and offset measured in microvolts [1000 microvolts = 1 millivolt = 0.01 volts]. 
+#If unqualified value is given, maximum value allowed is returned. This is mainly for gaming and overclockers.
 
-#sudo nvidia-settings -a '[gpu:0]/GPUOverVoltageOffset=50000' sudo nvidia-settings -a GPUOverVoltageOffset=50000 
+#sudo nvidia-settings -a '[gpu:0]/GPUOverVoltageOffset=50000' 
+#sudo nvidia-settings -a GPUOverVoltageOffset=50000 
+
+#__Note the [gpu:0] is my target card, and this is for those using headless servers__
 
 #sets "PowerMizerMode" where 1 = "Prefer Maximum Performance 2 = "Adaptive" 3 = "Auto"
 #sudo nvidia-settings -a '[gpu:0]/GPUPowerMizerMode=1'
