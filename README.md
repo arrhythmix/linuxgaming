@@ -38,7 +38,7 @@ launch "Nvidia X Server" Settings" app on your desktop and modify display settin
 
 sudo nano /etc/X11/xorg.conf
 
-**Under [Section "Device"] You should have something that looks like this
+**Under [Section "Device"] You should have something that looks like this**
 
 Section "Device"
     Identifier     "Device0"
@@ -47,7 +47,7 @@ Section "Device"
     BoardName      "NVIDIA GeForce GTX 1660 SUPER"
 EndSection
 
-**Add the following Options so the [Section "Device"] reads like below
+**Add the following Options so the [Section "Device"] reads like below**
 
 Section "Device"
     Identifier     "Device0"
