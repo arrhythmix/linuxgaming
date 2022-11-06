@@ -39,16 +39,16 @@ launch "Nvidia X Server" Settings" app on your desktop and modify display settin
 sudo nano /etc/X11/xorg.conf
 
 **Under [Section "Device"] You should have something that looks like this**
-
+```
 Section "Device"
     Identifier     "Device0"
     Driver         "nvidia"
     VendorName     "NVIDIA Corporation"
     BoardName      "NVIDIA GeForce GTX 1660 SUPER"
 EndSection
-
+```
 **Add the following Options so the [Section "Device"] reads like below**
-
+```
 Section "Device"
     Identifier     "Device0"
     Driver         "nvidia"
@@ -57,9 +57,11 @@ Section "Device"
     Option         "Coolbits" "28"
     Option         "RegistryDwords" "PowerMizerEnable=0x1; PerfLevelSrc=0x2222; PowerMizerLevel=0x1; PowerMizerDefault=0x1; PowerMizerDefaultAC=0x1"
 EndSection
-
+```
 **It's been a while, but "Coolbit" set to "28" should give you full functionality to set overclocks and voltages after reboot**
-**PowerMizer here is being enabled, and set to "Prefer Maximum Performance" with the "1" Value "0" is for adaptive, and "2" is for auto
+
+
+**PowerMizer here is being enabled, and set to "Prefer Maximum Performance" with the "1" Value "0" is for adaptive, and "2" is for auto**
 
 
 
