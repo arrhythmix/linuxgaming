@@ -5,7 +5,7 @@ Welcome to my guide to getting started into overclocking based systems for gamin
 sudo ubuntu-drivers devices
 
 **It should look something like this:** 
-
+```
 == /sys/devices/pci0000:00/0000:00:03.1/0000:0a:00.0 ==
 modalias : pci:v000010DEd000021C4sv000019DAsd00005527bc03sc00i00
 vendor   : NVIDIA Corporation
@@ -21,6 +21,7 @@ driver   : nvidia-driver-470-server - distro non-free
 driver   : nvidia-driver-520-open - distro non-free recommended
 driver   : nvidia-driver-510 - distro non-free
 driver   : xserver-xorg-video-nouveau - distro free builtin   
+```
 
 **So now I'll be installing latest "recommended" drivers**  
 
