@@ -12,7 +12,10 @@ sudo nvidia-smi --power-limit=425
 #if unqualified value is given, maximum value allowed is returned.
 sudo nvidia-settings -a GPUOverVoltageOffset=50000
 
-#sets "PowerMizerMode" where 1 = "Prefer Maximum Performance 2 = "Adaptive" 3 = "Auto"
+#sets "PowerMizerMode" 
+# 0 = Adaptive
+# 1 = Prefer Maximum Performance
+# 2 = Auto
 sudo nvidia-settings -a '[gpu:0]/GPUPowerMizerMode=1'
 
 # Note the [3] after "Offset" Represents Level P3 performance. Which is the performance level of any card reach under maximum load.
